@@ -1,5 +1,5 @@
 import { RECEIVE_TODOS, RECEIVE_TODO } from '../actions/todo_actions';
-import merge from 'lodash/merge'
+import merge from 'lodash/merge';
 
 const todosReducer = (state = {}, action) => {
   Object.freeze(state);
